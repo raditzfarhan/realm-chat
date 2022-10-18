@@ -15,13 +15,13 @@ composer require raditzfarhan/realm-chat
 ```
 
 ## Available Methods
-- addDevice
-- sendMessage
-- sendButtonMessage
-- sendTemplateMessage
-- recentChat
-- getContact
-- checkNumber
+- `addDevice(string $name)`
+- `sendMessage(string $number, string $message, ?string $fileUrl, ?string $fileName)`
+- `sendButtonMessage(string $number, array $buttons, ?string $message, ?string $fileUrl)`
+- `sendTemplateMessage(string $number, array $templates, string $message, ?string $fileUrl)`
+- `recentChat()`
+- `getContact()`
+- `checkNumber(string $number)`
 
 ## Usage
 
