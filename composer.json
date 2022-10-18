@@ -1,0 +1,43 @@
+{
+    "name": "raditzfarhan/realm-chat",
+    "description": "Realm Chat SDK",
+    "keywords": [
+        "raditzfarhan",
+        "realm-chat"
+    ],
+    "homepage": "https://github.com/raditzfarhan/realm-chat",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Raditz Farhan",
+            "email": "raditzfarhan@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/http": "^8.0||^9.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RaditzFarhan\\RealmChat\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RaditzFarhan\\RealmChat\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
