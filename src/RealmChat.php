@@ -47,7 +47,7 @@ class RealmChat
         $payload = [
             'number' => $number,
             'message' => $message,
-            'type' => $fileUrl ? 'image' : 'text',
+            'type' => 'text',
         ];
 
         if ($fileUrl && $fileName) {
